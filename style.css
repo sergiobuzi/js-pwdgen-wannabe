@@ -1,0 +1,45 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 100%;
+   margin: auto;
+   background-color: rgb(63, 63, 63);
+   height: 100%;
+}
+
+h1{
+    color: plum;
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f6b92df9-04a3-4744-b26f-d82865a44f85/da2xerj-bd997cb9-1134-439e-8e49-e5dc42296e19.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y2YjkyZGY5LTA0YTMtNDc0NC1iMjZmLWQ4Mjg2NWE0NGY4NVwvZGEyeGVyai1iZDk5N2NiOS0xMTM0LTQzOWUtOGU0OS1lNWRjNDIyOTZlMTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4VjqTXbULZd1_M5NXjFJFpm7yefdHq-GRDmLD55qFic);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    background-color: rgba(128, 0, 128, 0.11);
+    max-width: 700px;
+    border: 2px rgb(223, 0, 223) solid;
+    border-radius: 20px;
+    justify-content: center;
+    width: 700px;
+    max-height: 400px ;
+    flex-direction: column;
+    text-align: center;
+}
